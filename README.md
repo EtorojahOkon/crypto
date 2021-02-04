@@ -6,7 +6,7 @@ $crypt = new crypto('37rhdgsjf94829344');
 ?>
 To encrypt, call the method encrypt_text(plaintext) example:
 <?php
-echo $crypt->encrypt_text("Iam batman");
+echo $crypt->encrypt_text("I am batman");
 ?>
 To decrypt, call the method decrypt_hash(encrypted-text) example:
 <?php
